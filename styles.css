@@ -1,10 +1,11 @@
 * {
     font-family: sans-serif;
+    border: 2px black solid;
 }
 
 .container-1 {
     background-color: #1F2937;
-    padding: 10px 225px;
+    padding: 0px 150px;
 }
 
 .header {
@@ -22,7 +23,7 @@
 .belowheader {
     display: flex;
     padding: 80px 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .hero {
@@ -32,7 +33,8 @@
 }
 
 button {
-    justify-content:last baseline;
+    padding: 0px 15px
+
 }
 
 ul {
@@ -58,5 +60,5 @@ li {
 
 img {
     width: 400px;
-    background-color: grey
+    background-color: grey;
 }
