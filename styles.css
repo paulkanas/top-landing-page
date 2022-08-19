@@ -1,5 +1,5 @@
 * {
-    border: 2px black solid;
+    /* border: 2px black solid; */
     font-family: sans-serif;
 }
 
@@ -13,6 +13,14 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #f9faf8
 }
 
 .logo {
@@ -34,14 +42,18 @@
 
 }
 
-button {
+button.button1, button.button2 {
     background-color: #3882f6;
-    align-self: flex-start;
     padding: 5px 25px;
     color: #f9faf8;
     border-radius: 6px;
-    border: none;
     font-size: 16px;
+}
+
+button.button1 {
+    border: none;
+    align-self: flex-start;
+
 }
 
 ul {
@@ -75,12 +87,14 @@ li {
 
 .container-2 {
     text-align: center;
+    padding: 40px 0px 100px 0px
 }
 
 .imagecontainer {
     display: flex;
     justify-content: center;
-    gap: 15px
+    gap: 45px;
+
 
 }
 
@@ -93,8 +107,10 @@ li {
 }
 
 .container-2 > .title {
-    font-size: 30px;
-    margin: 30px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 55px;
 }
 
 .placeholder {
@@ -102,5 +118,58 @@ li {
     height: 125px;
     width: 125px;
     border-radius: 8px;
+}
 
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    min-width: 200px;
+    max-width: 60vw;
+    margin: 100px
+}
+
+.quote {
+    font-size: 28px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+figcaption {
+    text-align: right;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.container-4 {
+    padding: 100px 200px;
+}
+.container-5 {
+    background-color:#3882f6;
+    padding: 35px 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toptext, .bottomtext {
+    color: #e5e7eb;
+}
+
+.toptext {
+    font-weight: 700;
+    margin-bottom: 5px
+}
+.bottomtext{
+    font-size: 12px;
+}
+button.button2 {
+    align-self: center;
+    border: 1px white solid
+    
 }
