@@ -3,6 +3,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-image: url("./cherries.jpg")
+}
+
 .container-1 {
     background-color: #1F2937;
     padding: 0px 150px;
